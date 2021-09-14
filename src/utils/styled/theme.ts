@@ -1,9 +1,9 @@
-import { DefaultTheme } from 'styled-components';
+import { DefaultTheme } from "styled-components";
 
 const theme: DefaultTheme = {
   colors: {
-    black: '#000000',
-    white: '#ffffff',
+    black: "#000000",
+    white: "#ffffff",
   },
 };
 
