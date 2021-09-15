@@ -1,9 +1,11 @@
 import React, { FC } from "react";
 import { v4 as uuidv4 } from "uuid";
+import Image from "next/image";
 
 import * as Styled from "./Navbar.styles";
 
 import NavItem from "components/NavItem/NavItem";
+import NavbarButton from "components/NavbarButton/NavbarButton";
 
 export interface NavbarProps {
   //   navbarCMS: navbarCMS;
@@ -42,18 +44,20 @@ const Navbar: FC<NavbarProps> = () => {
     <Styled.NavbarWrapper>
       <Styled.ContentWrapper>
         <Styled.Container>
-          <img src={"svgs/logo.svg"} alt="logo" />
-          {/* <img src={"svgs/logo.svg"} alt="logo" /> */}
-          <Styled.LinksWrapper>
-            {links.map((link) => (
-              <NavItem
-                key={uuidv4()}
-                label={link.label}
-                href={link.href}
-                isDownList={link.isDownList}
-              />
-            ))}
-          </Styled.LinksWrapper>
+          <Image src="/svgs/logo.svg" alt="logo" width={90} height={28} />
+          <Styled.RightContainer>
+            <Styled.LinksWrapper>
+              {links.map((link) => (
+                <NavItem
+                  key={uuidv4()}
+                  label={link.label}
+                  href={link.href}
+                  isDownList={link.isDownList}
+                />
+              ))}
+            </Styled.LinksWrapper>
+            <NavbarButton label={"Get it now"} />
+          </Styled.RightContainer>
         </Styled.Container>
       </Styled.ContentWrapper>
     </Styled.NavbarWrapper>

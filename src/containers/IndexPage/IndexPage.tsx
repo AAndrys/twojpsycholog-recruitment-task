@@ -1,15 +1,14 @@
 import React, { FC } from "react";
 
 import Layout from "components/Layout/Layout";
-import Navbar from "components/Navbar/Navbar";
+import Hero from "components/Hero/Hero";
 
 interface IndexPageProps {}
 
 const IndexPage: FC<IndexPageProps> = () => {
   return (
     <Layout>
-      <Navbar />
-      <p>hi</p>
+      <Hero />
     </Layout>
   );
 };

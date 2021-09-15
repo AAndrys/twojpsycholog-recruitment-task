@@ -3,17 +3,29 @@ import media from "utils/styled/media.styles";
 
 export const NavbarWrapper = styled.header`
   width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const ContentWrapper = styled.div`
-  max-width: 272px;
+  width: 272px;
   height: 64px;
   margin: 0 18px;
 
   ${media.desktop} {
-    max-width: 1140px;
+    width: 1140px;
     height: 100px;
     margin: 0 150px;
+  }
+`;
+
+export const RightContainer = styled.div`
+  display: none;
+
+  ${media.desktop} {
+    display: inline-flex;
+    align-items: center;
   }
 `;
 
@@ -26,6 +38,8 @@ export const Container = styled.div`
 `;
 
 export const LinksWrapper = styled.nav`
+  display: none;
+
   ${media.desktop} {
     display: inline-flex;
   }
