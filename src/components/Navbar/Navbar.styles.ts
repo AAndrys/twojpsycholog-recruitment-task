@@ -44,3 +44,13 @@ export const LinksWrapper = styled.nav`
     display: inline-flex;
   }
 `;
+
+export const MenuImage = styled.img`
+  display: block;
+  width: 24px;
+  height: 24px;
+
+  ${media.desktop} {
+    display: none;
+  }
+`;

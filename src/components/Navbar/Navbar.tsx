@@ -7,9 +7,7 @@ import * as Styled from "./Navbar.styles";
 import NavItem from "components/NavItem/NavItem";
 import NavbarButton from "components/NavbarButton/NavbarButton";
 
-export interface NavbarProps {
-  //   navbarCMS: navbarCMS;
-}
+export interface NavbarProps {}
 
 const links = [
   {
@@ -45,6 +43,7 @@ const Navbar: FC<NavbarProps> = () => {
       <Styled.ContentWrapper>
         <Styled.Container>
           <Image src="/svgs/logo.svg" alt="logo" width={90} height={28} />
+          <Styled.MenuImage src={"svgs/menu.svg"} alt="Mobile menu icon" />
           <Styled.RightContainer>
             <Styled.LinksWrapper>
               {links.map((link) => (

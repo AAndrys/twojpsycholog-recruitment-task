@@ -4,6 +4,8 @@ import colors from "utils/styled/colors";
 import * as Styled from "./Button.styles";
 
 export interface ButtonProps {
+  buttonWidth: Array<{ x: number }>;
+  buttonTextWidth?: Array<{ x: number }>;
   margin?: string;
   text: string;
   isArrow?: boolean;
@@ -11,15 +13,25 @@ export interface ButtonProps {
 }
 
 const Button: FC<ButtonProps> = ({
+  buttonWidth,
+  buttonTextWidth,
   margin,
-  text = "Conference",
+  text,
   isArrow,
   isFilled,
 }) => {
   return (
-    <Styled.ButtonWrapper isFilled={isFilled} margin={margin}>
+    <Styled.ButtonWrapper
+      buttonWidth={buttonWidth}
+      isFilled={isFilled}
+      margin={margin}
+    >
       <Styled.Container>
-        <Styled.Text isFilled={isFilled} isArrow={isArrow}>
+        <Styled.Text
+          buttonTextWidth={buttonTextWidth}
+          isFilled={isFilled}
+          isArrow={isArrow}
+        >
           {text}
         </Styled.Text>
         {isArrow && (
