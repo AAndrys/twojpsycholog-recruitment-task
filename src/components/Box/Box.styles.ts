@@ -11,6 +11,7 @@ export const BoxWrapper = styled.div<{ isSecond?: boolean }>`
   ${({ isSecond }) => isSecond && "margin-top: 29.8px;"}
 
   ${media.desktop} {
+    margin-top: 0;
     ${({ isSecond }) =>
       isSecond ? "margin-left: 23.5px;" : "margin-right: 23.5px;"}
     ${({ isSecond }) =>
