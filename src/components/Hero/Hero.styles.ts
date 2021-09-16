@@ -44,8 +44,9 @@ export const InfoSideContainer = styled.div`
   grid-area: a;
 
   ${media.desktop} {
-    width: 100%;
+    width: 550px;
     height: 100%;
+    margin: 0;
   }
 `;
 

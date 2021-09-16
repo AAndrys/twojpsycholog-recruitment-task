@@ -48,7 +48,7 @@ export const SponsorsContainer = styled.div`
   height: 121px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 0.5;
+  grid-column-gap: 0.5px;
   grid-row-gap: 25px;
   margin-bottom: 65px;
 
@@ -82,10 +82,13 @@ export const Title = styled.h3`
 `;
 
 export const Image = styled.img`
+  min-width: 138.18px;
+  min-height: 23.27px;
   max-width: 142.5px;
   max-height: 24px;
 
   ${media.desktop} {
+    width: 190px;
     max-width: 190px;
     max-height: 32px;
   }

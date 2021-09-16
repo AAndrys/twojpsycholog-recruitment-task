@@ -1,12 +1,5 @@
 @font-face {
   font-family: "HK Grotesk";
-  src: url("/fonts/HK_Grotesk/HKGrotesk-Light.otf");
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-}
-@font-face {
-  font-family: "HK Grotesk";
   src: url("/fonts/HK_Grotesk/HKGrotesk-Regular.otf");
   font-style: normal;
   font-weight: 400;
@@ -26,22 +19,8 @@
   font-weight: 700;
   font-display: swap;
 }
-@font-face {
-  font-family: "HK Grotesk";
-  src: url("/fonts/HK_Grotesk/HKGrotesk-ExtraBold.otf");
-  font-style: bold;
-  font-weight: 800;
-  font-display: swap;
-}
 /* ///////////////////////////////////// */
 
-@font-face {
-  font-family: "Open Sans";
-  src: url("/fonts/Open_Sans/OpenSans-Light.ttf");
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-}
 @font-face {
   font-family: "Open Sans";
   src: url("/fonts/Open_Sans/OpenSans-Regular.ttf");
@@ -61,12 +40,5 @@
   src: url("/fonts/Open_Sans/OpenSans-Bold.ttf");
   font-style: bold;
   font-weight: 700;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("/fonts/Open_Sans/OpenSans-ExtraBold.ttf");
-  font-style: bold;
-  font-weight: 800;
   font-display: swap;
 }
