@@ -13,7 +13,13 @@ const Sponsors: FC<SponsorsProps> = () => {
         <Styled.Title>Sponsors of TheFutureTalks Conference</Styled.Title>
         <Styled.SponsorsContainer>
           {DATA.map((icon) => (
-            <Styled.Image key={uuidv4()} src={icon.src} alt={icon.alt} />
+            <Styled.Image
+              key={uuidv4()}
+              src={icon.src}
+              alt={icon.alt}
+              width={190}
+              height={190}
+            />
           ))}
         </Styled.SponsorsContainer>
       </Styled.Content>

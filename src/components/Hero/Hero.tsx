@@ -47,7 +47,12 @@ const Hero: FC<HeroProps> = () => {
         </Styled.InfoSideContainer>
 
         <Styled.ImageSideContainer>
-          <Styled.MozaicImage src="/images/imagesMosaic.webp" alt="mosaic" />
+          <Styled.MozaicImage
+            src="/images/imagesMosaic.webp"
+            width={0}
+            height={0}
+            alt="mosaic"
+          />
         </Styled.ImageSideContainer>
       </Styled.Content>
     </Styled.HeroWrapper>
