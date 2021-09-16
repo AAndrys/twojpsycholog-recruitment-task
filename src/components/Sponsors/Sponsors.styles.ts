@@ -11,7 +11,7 @@ export const SponsorsWrapper = styled.div`
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     width: 272px;

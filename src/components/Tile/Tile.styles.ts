@@ -3,25 +3,25 @@ import colors from "utils/styled/colors";
 
 import media from "utils/styled/media.styles";
 
-export const TileWrapper = styled.div<{ isSecond: boolean; }>`
-    width: 263px;
-    height: 411px;
+export const TileWrapper = styled.div<{ isSecond: boolean }>`
+  width: 263px;
+  height: 411px;
 
-    ${media.desktop} {
-      ${({ isSecond }) => isSecond && 'margin-top: 48px;'}
-    }
+  ${media.desktop} {
+    ${({ isSecond }) => isSecond && "margin-top: 48px;"}
+  }
 `;
 
-export const Image = styled.div<{ image: string; }>`
-    width: 262px;
-    height: 280px;
-    margin-bottom: 34px;
-    border-radius: 8px;
-    filter: drop-shadow(0px 20px 50px rgba(15, 24, 44, 0.15));
-    background: url(${({ image }) => image});
+export const Image = styled.div<{ image: string }>`
+  width: 262px;
+  height: 280px;
+  margin-bottom: 34px;
+  border-radius: 8px;
+  filter: drop-shadow(0px 20px 50px rgba(15, 24, 44, 0.15));
+  background: url(${({ image }) => image});
 
-    ${media.desktop} {
-    }
+  ${media.desktop} {
+  }
 `;
 
 export const Name = styled.h2`
@@ -51,7 +51,7 @@ export const Description = styled.p`
   }
 
   &::before {
-    content: '';
+    content: "";
     width: 12px;
     height: 14px;
     background: url(svgs/check.svg);

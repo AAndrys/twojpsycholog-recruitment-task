@@ -1,10 +1,12 @@
 import React, { FC } from "react";
+import dynamic from "next/dynamic";
 
 import * as Styled from "./Layout.styles";
 
 import Navbar from "components/Navbar/Navbar";
 import Head from "components/Head/Head";
-import Footer from "components/Footer/Footer";
+
+const Footer = dynamic(() => import("components/Footer/Footer"));
 
 export interface LayoutProps {
   children: React.ReactNode;
