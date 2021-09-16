@@ -1,6 +1,6 @@
 export const DATA = [
   {
-    image: "images/claudioGiglieri.png",
+    image: "images/claudioGiglieri.webp",
     name: "Claudio Giglieri",
     description: [
       {
@@ -12,7 +12,7 @@ export const DATA = [
     ],
   },
   {
-    image: "images/elsieMendoza.png",
+    image: "images/elsieMendoza.webp",
     name: "Elsie Mendoza",
     description: [
       {
@@ -24,7 +24,7 @@ export const DATA = [
     ],
   },
   {
-    image: "images/philipCastro.png",
+    image: "images/philipCastro.webp",
     name: "Philip Castro",
     description: [
       {
@@ -36,7 +36,7 @@ export const DATA = [
     ],
   },
   {
-    image: "images/carrieAngela.png",
+    image: "images/carrieAngela.webp",
     name: "Carrie Angela",
     description: [
       {
