@@ -5,6 +5,7 @@ const colors = {
   lightBlue: "#1565D8",
   blueBayoux: "#5A7184",
   lightGray: "#E5EAF4",
+  oceanGreen: "#36B37E",
 };
 
 export default colors;

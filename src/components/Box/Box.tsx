@@ -1,7 +1,8 @@
-import Button from "components/Button/Button";
 import React, { FC } from "react";
 
 import * as Styled from "./Box.styles";
+
+import Button from "components/Button/Button";
 
 export interface BoxProps {
   buttonText: string;

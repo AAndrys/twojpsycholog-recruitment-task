@@ -4,6 +4,7 @@ import * as Styled from "./Layout.styles";
 
 import Navbar from "components/Navbar/Navbar";
 import Head from "components/Head/Head";
+import Footer from "components/Footer/Footer";
 
 export interface LayoutProps {
   children: React.ReactNode;
@@ -14,8 +15,10 @@ const Layout: FC<LayoutProps> = ({ children }) => {
     <>
       <Head title={"Ehya"} description={"Recruitment task"} />
       <Navbar />
-      <Styled.LayoutWrapper>{children}</Styled.LayoutWrapper>
-      {/* <Footer /> */}
+      <Styled.LayoutWrapper>
+        {children}
+        <Footer />
+      </Styled.LayoutWrapper>
     </>
   );
 };

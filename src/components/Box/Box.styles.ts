@@ -38,9 +38,7 @@ export const Title = styled.h4`
   font-size: 16px;
   font-weight: 700;
   line-height: 21.79px;
-  margin-bottom: 8.2px ${media.desktop} {
-
-  }
+  margin-bottom: 8.2px;
 `;
 
 export const Description = styled.p<{ isSecond?: boolean }>`
