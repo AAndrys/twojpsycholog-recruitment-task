@@ -1,10 +1,12 @@
 import React, { FC } from "react";
 import { v4 as uuidv4 } from "uuid";
+import dynamic from "next/dynamic";
 
 import * as Styled from "./Speakers.styles";
 
 import { DATA } from "./DATA";
-import Tile from "components/Tile/Tile";
+
+const Tile = dynamic(() => import("components/Tile/Tile"));
 
 export interface SpeakersProps {}
 
