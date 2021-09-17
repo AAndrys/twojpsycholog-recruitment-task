@@ -13,6 +13,7 @@ const Head: React.FunctionComponent<HeadProps> = ({ title, description }) => {
       <title>{title}</title>
       <meta name="description" content={description} key="description" />
       <link rel="icon" href="/favicon.ico" />
+      <link rel="preload" href="images/imagesMosaic.webp" as="image" />
       <meta name="theme-color" content={colors.white} />
       <meta
         name="viewport"
