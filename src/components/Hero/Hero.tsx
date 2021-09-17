@@ -52,6 +52,7 @@ const Hero: FC<HeroProps> = () => {
             width={0}
             height={0}
             alt="mosaic"
+            loading="lazy"
           />
         </Styled.ImageSideContainer>
       </Styled.Content>

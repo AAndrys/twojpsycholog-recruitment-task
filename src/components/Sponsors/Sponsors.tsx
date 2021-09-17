@@ -19,6 +19,7 @@ const Sponsors: FC<SponsorsProps> = () => {
               alt={icon.alt}
               width={190}
               height={190}
+              loading="lazy"
             />
           ))}
         </Styled.SponsorsContainer>
