@@ -70,7 +70,7 @@ export const Title = styled.h4`
 `;
 
 export const Headline = styled.h1`
-  font-family: HK Grotesk;
+  font-family: "HK Grotesk", sans-serif;
   color: ${colors.darkBlue};
   width: 272px;
   height: 72px;

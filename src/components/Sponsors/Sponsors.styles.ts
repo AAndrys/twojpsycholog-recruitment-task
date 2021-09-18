@@ -61,7 +61,7 @@ export const SponsorsContainer = styled.div`
 `;
 
 export const Title = styled.h3`
-  font-family: HK Grotesk;
+  font-family: "HK Grotesk", sans-serif;
   color: ${colors.darkBlue};
   width: 272px;
   height: 48px;

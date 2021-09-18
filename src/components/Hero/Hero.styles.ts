@@ -60,7 +60,7 @@ export const ImageSideContainer = styled.div`
 `;
 
 export const Heading = styled.h1`
-  font-family: HK Grotesk;
+  font-family: "HK Grotesk", sans-serif;
   color: ${colors.darkBlue};
   width: 225px;
   height: 80px;

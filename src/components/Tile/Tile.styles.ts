@@ -19,13 +19,10 @@ export const Image = styled.div<{ image: string }>`
   border-radius: 8px;
   filter: drop-shadow(0px 20px 50px rgba(15, 24, 44, 0.15));
   background: url(${({ image }) => image});
-
-  ${media.desktop} {
-  }
 `;
 
 export const Name = styled.h2`
-  font-family: HK Grotesk;
+  font-family: "HK Grotesk", sans-serif;
   color: ${colors.darkBlue};
   width: 170px;
   height: 32px;
