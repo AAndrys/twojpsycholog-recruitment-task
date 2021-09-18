@@ -13,7 +13,6 @@ export const SpeakersWrapper = styled.div`
     rgba(250, 251, 251, 0.0001) 100%
   );
   border-radius: 16px;
-  margin-bottom: 178px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +20,6 @@ export const SpeakersWrapper = styled.div`
   ${media.desktop} {
     min-width: 1440px;
     height: 861px;
-    margin-bottom: 245px;
   }
 `;
 
@@ -51,6 +49,7 @@ export const Oval = styled.div`
   align-items: center;
   margin-bottom: 24px;
   margin-top: 50px;
+  text-align: center;
 
   ${media.desktop} {
     width: 101px;
@@ -96,7 +95,6 @@ export const TilesWrapper = styled.div`
   height: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-row-gap: 47px;
   justify-items: center;
 
   ${media.desktop} {
@@ -104,6 +102,5 @@ export const TilesWrapper = styled.div`
     height: 464px;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 31px;
-    grid-row-gap: 0;
   }
 `;
